@@ -1,33 +1,61 @@
-HELP.md
+# ===================== Java (Spring Boot) - blog-app =====================
+
+# Gradle
+.gradle/
+build/
+!gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Spring-specific
+.springBeans
+.sts4-cache
+
+# Eclipse-specific
 .apt_generated
 .classpath
 .factorypath
 .project
 .settings
-.springBeans
-.sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# ===================== Node (React + Vite) - blog-frontend =====================
 
-### NetBeans ###
+# Node modules
+/node_modules
+
+# Vite build output
+dist/
+
+# Yarn and npm lock files
+yarn-error.log
+npm-debug.log
+
+# Environment files
+.env
+
+# ===================== Other / IDE-related =====================
+
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# Logs
+*.log
